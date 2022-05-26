@@ -16,7 +16,6 @@ import AddItemScreen from './components/item_screen/AddItemScreen';
 import DatabaseTester from './test/DatabaseTester'
 
 class App extends Component {
-  console.log("test");
   render() {
     const { auth } = this.props;
 
